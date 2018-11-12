@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:orientation="vertical"
+    tools:context=".QuotesPageActivity">
+
+    <TextView
+        android:id="@+id/activity_quote_page_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="long quote......"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/activity_quote_page_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Category : "
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/activity_quote_page_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Author : "
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/activity_quote_page_next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next quote"
+        android:layout_marginTop="25dp"/>
+    <Button
+        android:id="@+id/activity_quote_page_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back quote"
+        android:layout_marginTop="25dp"/>
+</LinearLayout>
